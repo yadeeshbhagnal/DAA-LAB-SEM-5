@@ -1,4 +1,5 @@
 #include<iostream>
+
 using namespace std;
 int binarysearch(int a[],int left,int right,int k)
 {   int comparison=0,flag=0;
@@ -14,8 +15,7 @@ int binarysearch(int a[],int left,int right,int k)
     }
     if(flag==1)
         cout<<"Present "<<comparison<<endl;
-    else cout<<"Not Present "<<endl;
-       
+    else cout<<"Not Present "<<endl;     
 }
 int main()
 {
